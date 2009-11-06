@@ -1,0 +1,23 @@
+Installation notes:
+
+Apache with modpython is required to begin installation. 
+Also, desativate Python handler on css, and img directories by setting SetHandler None.
+
+Please make sure that the management openvpn server is active,
+if not insert the line above into the openvpn server's config and restart the daemon
+
+management 127.0.0.1 5000 /etc/openvpn/password.txt
+
+the file /etc/openvpn/password.txt contains your favorite password.
+to make OpenVPN-Status work you have also to edit the main.py file, and modify the global variables
+
+username:  "your login here"
+password:  "your password "
+host:      "the ip of the management openvpn server"
+port:      "the port of the management openvpn server"
+vpnpasswd: "the password of the management openvpn server"
+
+
+That completes the setup! You can begin viewing your new script, so point your browser to http://your-server/directory/main/
+
+Have fun,

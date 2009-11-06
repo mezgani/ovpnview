@@ -1,0 +1,23 @@
+__software__= "OpenVPN-Status"
+__author__ = "Handrix handrix@users.sourceforge.org"
+__version__ = "1.0.1"
+__date__ = "2008/10/04 23:46:07"
+__copyright__ = "Copyright (c) securfox"
+__license__="GPL"
+__credits__ = "Thanks mam for support"
+
+
+OpenVPN-Status is a web interface that manage who is connected to your OpenVPN server.
+It parses data from the management OpenVPN server, 
+and try to give status of all connections in the real time.
+It has been developed using modpython. 
+
+
+OpenVPN-Status is Free Software you can redistribute it and/or modify it under the terms of the GNU
+General Public License as published by the Free Software Foundation; either vers
+ion 2 of the License, or (at your option) any later version.See the GNU General Public
+License for more details.
+
+For more information visit the project's web site at:
+http://openvpn-status.sourceforge.net/
+
